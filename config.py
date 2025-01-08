@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = ""
-API_HASH = ""
+API_ID = "24845544"
+API_HASH = "57f32b90d5406552ab9156f6404fe5a8"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = ""
+BOT_TOKEN = "7158896048:AAEifu35rAfgBvI2qlY1DFFg8oHEaN1sk5M"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = ""
+MONGO_DB_URI = "mongodb+srv://github9210:ieMwBAIuNl2NEMRO@cluster0.lcwkg5r.mongodb.net/?retryWrites=true&w=majority"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = -
+LOGGER_ID = -1002064111110
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = 
+OWNER_ID = 6257927828
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/koreansmu/StormVortexLv2",
+    "https://github.com/koreansmu/s",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
