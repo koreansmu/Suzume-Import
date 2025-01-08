@@ -32,11 +32,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/koreansmu/s",
+    "https://github.com/koreansmu/SuzumeeLV",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    ""
+    "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"
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/storm_techh")
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = 
+STRING1 = "BQF7HOgAAaEuXC-Y5WpWU0ILOkHp1vhm0RPwXeWvYQveEkKYjDaPQ_WXxgiFWujmMJjHfmjlTLI8EKUc55U8HlxiTA6StHMV2JQrEtvnHdUpZ_VD1qg_oMXplOgcROtwNXevdhQR3o8vSiMS1VZjNjMTU3jiAUzVMT3Q1oPSqDHJzsTKpdwqJJZnwVl6HcCdUEMUdcSEgTnMXpZaZllNvHiyeFYpXrs3Lg5EH7DtIbLME9thi51EsGLpImXq-QE5IjQelZPoa7KPH8pCWgoOFBmiP8VclPtKIlK12TPxTxTn_hnQw-S7OGUjTgvIvaT6ar9XhKTdSG7zajhLF5uylVnOf3QMDgAAAAGFSB7bAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
